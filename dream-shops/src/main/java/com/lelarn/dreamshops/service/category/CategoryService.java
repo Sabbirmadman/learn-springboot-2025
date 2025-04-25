@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.lelarn.dreamshops.exceptions.CategoryNotFoundException;
+import com.lelarn.dreamshops.exceptions.ResourceNotFoundException;
 import com.lelarn.dreamshops.model.Category;
 import com.lelarn.dreamshops.repository.CategoryRepository;
 
@@ -24,7 +24,7 @@ public class CategoryService implements ICategoryService {
   @Override
   public Category getCategoryById(Long id) {
     return categoryRepository.findById(id)
-        .orElseThrow(() -> new CategoryNotFoundException("Category not found with id: " + id));
+        .orElseThrow(() -> new ResourceNotFoundException("Category not found with id: " + id));
   }
 
   @Override
@@ -55,7 +55,7 @@ public class CategoryService implements ICategoryService {
   public Category getCategoryByName(String name) {
     Category category = categoryRepository.findByName(name);
     if (category == null) {
-      throw new CategoryNotFoundException("Category not found with name: " + name);
+      throw new ResourceNotFoundException("Category not found with name: " + name);
     }
     return category;
   }

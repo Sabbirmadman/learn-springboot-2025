@@ -10,7 +10,7 @@ import javax.sql.rowset.serial.SerialBlob;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.lelarn.dreamshops.exceptions.ImageNotFoundException;
+import com.lelarn.dreamshops.exceptions.ResourceNotFoundException;
 import com.lelarn.dreamshops.model.Image;
 import com.lelarn.dreamshops.model.Product;
 import com.lelarn.dreamshops.repository.ImageRepository;
@@ -47,7 +47,7 @@ public class ImageService implements IImageService {
   @Override
   public Image getImageById(Long id) {
     return imageRepository.findById(id)
-        .orElseThrow(() -> new ImageNotFoundException("Image not found with id: " + id));
+        .orElseThrow(() -> new ResourceNotFoundException("Image not found with id: " + id));
   }
 
   @Override

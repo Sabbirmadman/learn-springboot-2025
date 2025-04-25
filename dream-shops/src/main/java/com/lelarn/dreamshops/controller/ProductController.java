@@ -1,8 +1,8 @@
 package com.lelarn.dreamshops.controller;
 
-import java.util.List;
-import java.util.stream.Collectors;
-
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -32,81 +32,73 @@ public class ProductController {
 
   private final IProductService productService;
 
+  // GET /api/products - Get filtered and paginated products
   @GetMapping
-  public ResponseEntity<ApiResponse<List<ProductResponse>>> getProducts(
-          @RequestParam(value = "category", required = false) String category,
-          @RequestParam(value = "brand", required = false) String brand,
-          @RequestParam(value = "name", required = false) String name) {
+  public ResponseEntity<ApiResponse<Page<ProductResponse>>> getProducts(
+      @RequestParam(required = false) String category,
+      @RequestParam(required = false) String brand,
+      @RequestParam(required = false) String name,
+      @PageableDefault(size = 10, sort = "id") Pageable pageable) {
     try {
-      List<Product> products = productService.getFilteredProducts(category, brand, name);
-      List<ProductResponse> productResponses = products.stream()
-              .map(ProductResponse::new)
-              .collect(Collectors.toList());
-      if (productResponses.isEmpty()) {
-        return ApiResponse.success(HttpStatus.OK, "No products found matching the criteria", productResponses);
-      }
-      return ApiResponse.success("Products retrieved successfully", productResponses);
+      Page<Product> productPage = productService.getFilteredProducts(category, brand, name, pageable);
+      Page<ProductResponse> responsePage = productPage.map(ProductResponse::new);
+      return ApiResponse.success("Products retrieved successfully", responsePage);
     } catch (Exception e) {
-      // Log the exception e
       return ApiResponse.error(HttpStatus.INTERNAL_SERVER_ERROR, "Failed to retrieve products", e.getMessage());
     }
   }
 
+  // GET /api/products/{id} - Get product by ID
   @GetMapping("/{id}")
-  public ResponseEntity<ApiResponse<ProductResponse>> getProductById(@PathVariable(value = "id") Long id) {
+  public ResponseEntity<ApiResponse<ProductResponse>> getProductById(@PathVariable Long id) {
     try {
-      Product product = productService.getProductById(id); // Assumes this throws exception if not found
-      ProductResponse responseData = new ProductResponse(product);
-      return ApiResponse.success("Product retrieved successfully", responseData);
-    } catch (EntityNotFoundException e) { // Catch specific exception if service throws it
+      Product product = productService.getProductById(id);
+      return ApiResponse.success("Product found", new ProductResponse(product));
+    } catch (EntityNotFoundException e) {
       return ApiResponse.error(HttpStatus.NOT_FOUND, "Product not found", e.getMessage());
     } catch (Exception e) {
-      // Log the exception e
       return ApiResponse.error(HttpStatus.INTERNAL_SERVER_ERROR, "Failed to retrieve product", e.getMessage());
     }
   }
 
+  // POST /api/products - Add a new product (Admin only)
   @PostMapping
   @PreAuthorize("hasAuthority('ADMIN')")
   public ResponseEntity<ApiResponse<ProductResponse>> addProduct(@RequestBody AddProductRequest request) {
     try {
       Product newProduct = productService.addProduct(request);
-      ProductResponse responseData = new ProductResponse(newProduct);
-      return ApiResponse.success(HttpStatus.CREATED, "Product added successfully", responseData);
-    } catch (Exception e) { // Catch more specific exceptions if possible (e.g., ValidationException)
-      // Log the exception e
-      return ApiResponse.error(HttpStatus.BAD_REQUEST, "Failed to add product", e.getMessage());
+      return ApiResponse.success(HttpStatus.CREATED, "Product added successfully", new ProductResponse(newProduct));
+    } catch (Exception e) {
+      return ApiResponse.error(HttpStatus.INTERNAL_SERVER_ERROR, "Failed to add product", e.getMessage());
     }
   }
 
+  // PUT /api/products/{id} - Update an existing product (Admin only)
   @PutMapping("/{id}")
   @PreAuthorize("hasAuthority('ADMIN')")
-  public ResponseEntity<ApiResponse<ProductResponse>> updateProduct(@PathVariable(value = "id") Long id, @RequestBody AddProductRequest request) {
+  public ResponseEntity<ApiResponse<ProductResponse>> updateProduct(@PathVariable Long id,
+      @RequestBody AddProductRequest request) {
     try {
       Product updatedProduct = productService.updateProduct(id, request);
-      ProductResponse responseData = new ProductResponse(updatedProduct);
-      return ApiResponse.success("Product updated successfully", responseData);
+      return ApiResponse.success("Product updated successfully", new ProductResponse(updatedProduct));
     } catch (EntityNotFoundException e) {
       return ApiResponse.error(HttpStatus.NOT_FOUND, "Product not found for update", e.getMessage());
     } catch (Exception e) {
-      // Log the exception e
-      return ApiResponse.error(HttpStatus.BAD_REQUEST, "Failed to update product", e.getMessage());
+      return ApiResponse.error(HttpStatus.INTERNAL_SERVER_ERROR, "Failed to update product", e.getMessage());
     }
   }
 
+  // DELETE /api/products/{id} - Delete a product (Admin only)
   @DeleteMapping("/{id}")
   @PreAuthorize("hasAuthority('ADMIN')")
-  public ResponseEntity<ApiResponse<Object>> deleteProduct(@PathVariable(value = "id") Long id) { // Return type changed
+  public ResponseEntity<ApiResponse<Void>> deleteProduct(@PathVariable Long id) {
     try {
       productService.deleteProductById(id);
-      // Return success with no data, using Object as the generic type
-      return ApiResponse.success(HttpStatus.OK, "Product deleted successfully", null);
-    } catch (EntityNotFoundException e) { // Or EmptyResultDataAccessException depending on service impl
+      return ApiResponse.success(HttpStatus.NO_CONTENT, "Product deleted successfully", null);
+    } catch (EntityNotFoundException e) {
       return ApiResponse.error(HttpStatus.NOT_FOUND, "Product not found for deletion", e.getMessage());
     } catch (Exception e) {
-      // Log the exception e
       return ApiResponse.error(HttpStatus.INTERNAL_SERVER_ERROR, "Failed to delete product", e.getMessage());
     }
   }
-
 }

@@ -1,8 +1,6 @@
 package com.lelarn.dreamshops.service.cart;
 
-import com.lelarn.dreamshops.exceptions.CartItemNotFoundException;
-import com.lelarn.dreamshops.exceptions.ProductNotFoundException;
-import com.lelarn.dreamshops.exceptions.UserNotFoundException;
+import com.lelarn.dreamshops.exceptions.ResourceNotFoundException;
 import com.lelarn.dreamshops.model.Cart;
 import com.lelarn.dreamshops.model.Product;
 import com.lelarn.dreamshops.model.User;
@@ -33,12 +31,14 @@ public class CartService implements ICartService {
     @Transactional
     public CartItemResponse addItemToCart(AddToCartRequest request, String username) {
         User user = userRepository.findByUsername(username)
-                .orElseThrow(() -> new UserNotFoundException("User not found: " + username));
+                .orElseThrow(() -> new ResourceNotFoundException("User not found: " + username));
         Product product = productRepository.findById(request.getProductId())
-                .orElseThrow(() -> new ProductNotFoundException("Product not found with id: " + request.getProductId()));
+                .orElseThrow(
+                        () -> new ResourceNotFoundException("Product not found with id: " + request.getProductId()));
 
         // Check if product is already in the user's active cart
-        Optional<Cart> existingCartItemOpt = cartRepository.findByUserAndProductAndStatus(user, product, ACTIVE_CART_STATUS);
+        Optional<Cart> existingCartItemOpt = cartRepository.findByUserAndProductAndStatus(user, product,
+                ACTIVE_CART_STATUS);
 
         Cart cartItem;
         if (existingCartItemOpt.isPresent()) {
@@ -56,9 +56,8 @@ public class CartService implements ICartService {
 
         // Basic check for inventory (optional, enhance as needed)
         if (product.getInventory() < cartItem.getQuantity()) {
-             throw new IllegalArgumentException("Not enough stock for product: " + product.getName());
+            throw new IllegalArgumentException("Not enough stock for product: " + product.getName());
         }
-
 
         Cart savedCart = cartRepository.save(cartItem);
         return new CartItemResponse(savedCart);
@@ -67,7 +66,7 @@ public class CartService implements ICartService {
     @Override
     public List<CartItemResponse> getUserCart(String username) {
         User user = userRepository.findByUsername(username)
-                .orElseThrow(() -> new UserNotFoundException("User not found: " + username));
+                .orElseThrow(() -> new ResourceNotFoundException("User not found: " + username));
 
         List<Cart> cartItems = cartRepository.findByUserAndStatus(user, ACTIVE_CART_STATUS);
         return cartItems.stream()
@@ -78,22 +77,23 @@ public class CartService implements ICartService {
     @Override
     @Transactional
     public CartItemResponse updateCartItemQuantity(Long cartItemId, int quantity, String username) {
-         if (quantity <= 0) {
-             throw new IllegalArgumentException("Quantity must be positive.");
-         }
+        if (quantity <= 0) {
+            throw new IllegalArgumentException("Quantity must be positive.");
+        }
         User user = userRepository.findByUsername(username)
-                .orElseThrow(() -> new UserNotFoundException("User not found: " + username));
+                .orElseThrow(() -> new ResourceNotFoundException("User not found: " + username));
         Cart cartItem = cartRepository.findByIdAndUser(cartItemId, user)
-                .orElseThrow(() -> new CartItemNotFoundException("Cart item not found with id: " + cartItemId + " for user " + username));
+                .orElseThrow(() -> new ResourceNotFoundException(
+                        "Cart item not found with id: " + cartItemId + " for user " + username));
 
-         if (!ACTIVE_CART_STATUS.equals(cartItem.getStatus())) {
-             throw new CartItemNotFoundException("Cart item is not active: " + cartItemId);
-         }
+        if (!ACTIVE_CART_STATUS.equals(cartItem.getStatus())) {
+            throw new ResourceNotFoundException("Cart item is not active: " + cartItemId);
+        }
 
-         // Basic check for inventory (optional, enhance as needed)
-         if (cartItem.getProduct().getInventory() < quantity) {
-             throw new IllegalArgumentException("Not enough stock for product: " + cartItem.getProduct().getName());
-         }
+        // Basic check for inventory (optional, enhance as needed)
+        if (cartItem.getProduct().getInventory() < quantity) {
+            throw new IllegalArgumentException("Not enough stock for product: " + cartItem.getProduct().getName());
+        }
 
         cartItem.setQuantity(quantity);
         Cart updatedCart = cartRepository.save(cartItem);
@@ -104,13 +104,14 @@ public class CartService implements ICartService {
     @Transactional
     public void removeItemFromCart(Long cartItemId, String username) {
         User user = userRepository.findByUsername(username)
-                .orElseThrow(() -> new UserNotFoundException("User not found: " + username));
+                .orElseThrow(() -> new ResourceNotFoundException("User not found: " + username));
         Cart cartItem = cartRepository.findByIdAndUser(cartItemId, user)
-                .orElseThrow(() -> new CartItemNotFoundException("Cart item not found with id: " + cartItemId + " for user " + username));
+                .orElseThrow(() -> new ResourceNotFoundException(
+                        "Cart item not found with id: " + cartItemId + " for user " + username));
 
-         if (!ACTIVE_CART_STATUS.equals(cartItem.getStatus())) {
-             throw new CartItemNotFoundException("Cart item is not active: " + cartItemId);
-         }
+        if (!ACTIVE_CART_STATUS.equals(cartItem.getStatus())) {
+            throw new ResourceNotFoundException("Cart item is not active: " + cartItemId);
+        }
 
         cartRepository.delete(cartItem);
 
