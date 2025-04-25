@@ -18,6 +18,10 @@ import com.lelarn.dreamshops.request.CategoryRequest;
 import com.lelarn.dreamshops.response.CategoryResponse;
 import com.lelarn.dreamshops.service.category.ICategoryService;
 
+import com.lelarn.dreamshops.response.ApiResponse;
+import jakarta.persistence.EntityNotFoundException;
+
+
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -28,12 +32,20 @@ public class CategoryController {
   private final ICategoryService categoryService;
 
   @GetMapping
-  public ResponseEntity<List<CategoryResponse>> getAllCategories() {
-    List<Category> categories = categoryService.getAllCategories();
-    List<CategoryResponse> response = categories.stream()
-        .map(CategoryResponse::new)
-        .toList();
-    return ResponseEntity.ok(response);
+  public ResponseEntity<ApiResponse<List<CategoryResponse>>> getAllCategories() {
+    try {
+      List<Category> categories = categoryService.getAllCategories();
+      List<CategoryResponse> response = categories.stream()
+              .map(CategoryResponse::new)
+              .toList();
+        if (response.isEmpty()) {
+            return ApiResponse.success(HttpStatus.OK, "No categories found", response);
+        }
+      return ApiResponse.success("Products retrieved successfully", response);
+
+    }catch (Exception e){
+      return ApiResponse.error(HttpStatus.INTERNAL_SERVER_ERROR, "Failed to retrieve categories", e.getMessage());
+    }
   }
 
   @GetMapping("/{id}")

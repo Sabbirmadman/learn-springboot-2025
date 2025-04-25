@@ -1,0 +1,332 @@
+2025-04-24T11:17:33.150+06:00 ERROR 9764 --- [dream-shops] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.lelarn.dreamshops' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.lelarn.dreamshops
+    Value: "INFO # Set your base package level"
+    Origin: class path resource [application.properties] - 42:37
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.INFO # Set your base package level)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-04-24T11:18:02.806+06:00 ERROR 11548 --- [dream-shops] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.lelarn.dreamshops' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.lelarn.dreamshops
+    Value: "INFO # Set your base package level"
+    Origin: class path resource [application.properties] - 42:37
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.INFO # Set your base package level)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-04-24T11:19:47.798+06:00 ERROR 11152 --- [dream-shops] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.lelarn.dreamshops' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.lelarn.dreamshops
+    Value: "INFO # Set your base package level"
+    Origin: class path resource [application.properties] - 42:37
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.INFO # Set your base package level)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-04-24T11:20:04.915+06:00 ERROR 19988 --- [dream-shops] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.lelarn.dreamshops' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.lelarn.dreamshops
+    Value: "INFO # Set your base package level"
+    Origin: class path resource [application.properties] - 42:37
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.INFO # Set your base package level)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2025-04-24T11:22:45.746+06:00  INFO 6952 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Starting DreamShopsApplication using Java 21.0.6 with PID 6952 (D:\github\CrossSkill_J2EE_Sabbir\build\classes\java\main started by BJIT in D:\github\CrossSkill_J2EE_Sabbir)
+2025-04-24T11:22:45.751+06:00  INFO 6952 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-04-24T11:22:47.127+06:00  INFO 6952 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-24T11:22:47.248+06:00  INFO 6952 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 5 JPA repository interfaces.
+2025-04-24T11:22:48.239+06:00  INFO 6952 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-24T11:22:48.264+06:00  INFO 6952 --- [dream-shops] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-24T11:22:48.264+06:00  INFO 6952 --- [dream-shops] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-24T11:22:48.357+06:00  INFO 6952 --- [dream-shops] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-24T11:22:48.358+06:00  INFO 6952 --- [dream-shops] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2505 ms
+2025-04-24T11:22:48.631+06:00  INFO 6952 --- [dream-shops] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-24T11:22:48.737+06:00  INFO 6952 --- [dream-shops] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-24T11:22:48.796+06:00  INFO 6952 --- [dream-shops] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-24T11:22:49.230+06:00  INFO 6952 --- [dream-shops] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-24T11:22:49.274+06:00  INFO 6952 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-24T11:22:49.790+06:00  INFO 6952 --- [dream-shops] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3041beb3
+2025-04-24T11:22:49.795+06:00  INFO 6952 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-24T11:22:49.846+06:00  WARN 6952 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-24T11:22:49.847+06:00  WARN 6952 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-24T11:22:49.879+06:00  INFO 6952 --- [dream-shops] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-24T11:22:51.035+06:00  INFO 6952 --- [dream-shops] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-24T11:22:51.138+06:00  INFO 6952 --- [dream-shops] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T11:22:51.764+06:00  INFO 6952 --- [dream-shops] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-24T11:22:51.764+06:00  WARN 6952 --- [dream-shops] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-24T11:22:52.071+06:00  WARN 6952 --- [dream-shops] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-24T11:22:53.054+06:00  INFO 6952 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-24T11:22:53.067+06:00  INFO 6952 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Started DreamShopsApplication in 7.934 seconds (process running for 8.339)
+2025-04-24T11:23:11.534+06:00  INFO 6952 --- [dream-shops] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-24T11:23:11.535+06:00  INFO 6952 --- [dream-shops] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-24T11:23:11.537+06:00  INFO 6952 --- [dream-shops] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-24T11:33:20.574+06:00  INFO 16656 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Starting DreamShopsApplication using Java 21.0.6 with PID 16656 (D:\github\CrossSkill_J2EE_Sabbir\build\classes\java\main started by BJIT in D:\github\CrossSkill_J2EE_Sabbir)
+2025-04-24T11:33:20.578+06:00  INFO 16656 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-04-24T11:33:21.788+06:00  INFO 16656 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-24T11:33:21.918+06:00  INFO 16656 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 5 JPA repository interfaces.
+2025-04-24T11:33:23.064+06:00  INFO 16656 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-24T11:33:23.086+06:00  INFO 16656 --- [dream-shops] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-24T11:33:23.087+06:00  INFO 16656 --- [dream-shops] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-24T11:33:23.181+06:00  INFO 16656 --- [dream-shops] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-24T11:33:23.182+06:00  INFO 16656 --- [dream-shops] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2525 ms
+2025-04-24T11:33:23.452+06:00  INFO 16656 --- [dream-shops] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-24T11:33:23.544+06:00  INFO 16656 --- [dream-shops] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-24T11:33:23.611+06:00  INFO 16656 --- [dream-shops] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-24T11:33:24.115+06:00  INFO 16656 --- [dream-shops] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-24T11:33:24.171+06:00  INFO 16656 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-24T11:33:24.697+06:00  INFO 16656 --- [dream-shops] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b8d20e6
+2025-04-24T11:33:24.701+06:00  INFO 16656 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-24T11:33:24.763+06:00  WARN 16656 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-24T11:33:24.765+06:00  WARN 16656 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-24T11:33:24.793+06:00  INFO 16656 --- [dream-shops] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-24T11:33:26.854+06:00  INFO 16656 --- [dream-shops] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-24T11:33:26.974+06:00  INFO 16656 --- [dream-shops] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T11:33:27.542+06:00  INFO 16656 --- [dream-shops] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-24T11:33:27.543+06:00  WARN 16656 --- [dream-shops] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-24T11:33:27.817+06:00  WARN 16656 --- [dream-shops] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-24T11:33:28.885+06:00  INFO 16656 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-24T11:33:28.909+06:00  INFO 16656 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Started DreamShopsApplication in 9.036 seconds (process running for 9.472)
+2025-04-24T11:33:33.729+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-24T11:33:33.730+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-24T11:33:33.731+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-24T11:33:33.762+06:00  WARN 16656 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.s.CustomAuthenticationEntryPoint   : Authentication failed: Full authentication is required to access this resource
+2025-04-24T11:34:27.136+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request START [ID:d2d2550a-9939-4173-8be2-b16341983f1c]: GET /api/cart from 0:0:0:0:0:0:0:1
+2025-04-24T11:34:27.323+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:d2d2550a-9939-4173-8be2-b16341983f1c]: Status 200 in 187ms
+2025-04-24T11:34:31.108+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request START [ID:dc801fe8-023d-4000-922c-f7cedfc92ff5]: POST /api/cart from 0:0:0:0:0:0:0:1
+2025-04-24T11:34:31.373+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:dc801fe8-023d-4000-922c-f7cedfc92ff5]: Status 201 in 265ms
+2025-04-24T11:34:37.667+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request START [ID:7ee1057f-de61-4d97-80f9-d93e01813e62]: POST /api/cart from 0:0:0:0:0:0:0:1
+2025-04-24T11:34:37.720+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:7ee1057f-de61-4d97-80f9-d93e01813e62]: Status 201 in 54ms
+2025-04-24T11:34:42.296+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request START [ID:e5f59160-86c6-490e-bdaf-5a5c4cba7745]: DELETE /api/cart/5 from 0:0:0:0:0:0:0:1
+2025-04-24T11:34:42.341+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:e5f59160-86c6-490e-bdaf-5a5c4cba7745]: Status 500 in 45ms
+2025-04-24T11:34:55.121+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request START [ID:f02f1cc2-b39b-4f3f-a481-a840d155ecc1]: POST /api/cart from 0:0:0:0:0:0:0:1
+2025-04-24T11:34:55.166+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:f02f1cc2-b39b-4f3f-a481-a840d155ecc1]: Status 201 in 45ms
+2025-04-24T11:34:57.998+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request START [ID:f466c101-3d0e-4a1b-89d0-edeffd7271ec]: GET /api/cart from 0:0:0:0:0:0:0:1
+2025-04-24T11:34:58.013+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:f466c101-3d0e-4a1b-89d0-edeffd7271ec]: Status 200 in 15ms
+2025-04-24T11:35:06.425+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.filter.RequestLoggingFilter        : Request START [ID:22cee07d-d3a8-4f91-8102-2675c6dadc7b]: DELETE /api/cart/3 from 0:0:0:0:0:0:0:1
+2025-04-24T11:35:06.464+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:22cee07d-d3a8-4f91-8102-2675c6dadc7b]: Status 204 in 39ms
+2025-04-24T11:37:36.059+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request START [ID:75e07733-7d80-4413-84b5-220203eacd55]: POST /api/cart from 0:0:0:0:0:0:0:1
+2025-04-24T11:37:36.094+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:75e07733-7d80-4413-84b5-220203eacd55]: Status 201 in 35ms
+2025-04-24T11:37:41.292+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request START [ID:7fb6c634-4f34-4d97-abf7-06e7cb1ab999]: DELETE /api/cart/4 from 0:0:0:0:0:0:0:1
+2025-04-24T11:37:41.316+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:7fb6c634-4f34-4d97-abf7-06e7cb1ab999]: Status 204 in 24ms
+2025-04-24T12:10:19.326+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request START [ID:d40aaa15-eceb-4b70-ab1d-9d4c092a37a0]: GET /api/products/3 from 0:0:0:0:0:0:0:1
+2025-04-24T12:10:19.355+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:d40aaa15-eceb-4b70-ab1d-9d4c092a37a0]: Status 200 in 29ms
+2025-04-24T12:10:23.963+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request START [ID:76189f68-5eaf-46d9-82f1-b16cd2ee18a2]: GET /api/products from 0:0:0:0:0:0:0:1
+2025-04-24T12:10:23.996+06:00  INFO 16656 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:76189f68-5eaf-46d9-82f1-b16cd2ee18a2]: Status 200 in 33ms
+2025-04-24T12:10:36.711+06:00  INFO 12968 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Starting DreamShopsApplication using Java 21.0.6 with PID 12968 (D:\github\CrossSkill_J2EE_Sabbir\build\classes\java\main started by BJIT in D:\github\CrossSkill_J2EE_Sabbir)
+2025-04-24T12:10:36.713+06:00  INFO 12968 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-04-24T12:10:37.829+06:00  INFO 12968 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-24T12:10:37.945+06:00  INFO 12968 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 5 JPA repository interfaces.
+2025-04-24T12:10:38.810+06:00  INFO 12968 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-24T12:10:38.831+06:00  INFO 12968 --- [dream-shops] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-24T12:10:38.832+06:00  INFO 12968 --- [dream-shops] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-24T12:10:38.913+06:00  INFO 12968 --- [dream-shops] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-24T12:10:38.914+06:00  INFO 12968 --- [dream-shops] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2137 ms
+2025-04-24T12:10:39.121+06:00  INFO 12968 --- [dream-shops] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-24T12:10:39.208+06:00  INFO 12968 --- [dream-shops] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-24T12:10:39.256+06:00  INFO 12968 --- [dream-shops] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-24T12:10:39.603+06:00  INFO 12968 --- [dream-shops] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-24T12:10:39.668+06:00  INFO 12968 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-24T12:10:40.195+06:00  INFO 12968 --- [dream-shops] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@448086ab
+2025-04-24T12:10:40.198+06:00  INFO 12968 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-24T12:10:40.269+06:00  WARN 12968 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-24T12:10:40.271+06:00  WARN 12968 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-24T12:10:40.293+06:00  INFO 12968 --- [dream-shops] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-24T12:10:41.402+06:00  INFO 12968 --- [dream-shops] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-24T12:10:41.500+06:00  INFO 12968 --- [dream-shops] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T12:10:42.007+06:00  INFO 12968 --- [dream-shops] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-24T12:10:42.008+06:00  WARN 12968 --- [dream-shops] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-24T12:10:42.265+06:00  WARN 12968 --- [dream-shops] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-24T12:10:43.035+06:00  INFO 12968 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-24T12:10:43.047+06:00  INFO 12968 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Started DreamShopsApplication in 6.897 seconds (process running for 7.457)
+2025-04-24T12:11:09.548+06:00  INFO 12968 --- [dream-shops] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-24T12:11:09.549+06:00  INFO 12968 --- [dream-shops] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-24T12:11:09.551+06:00  INFO 12968 --- [dream-shops] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-24T12:11:09.592+06:00  INFO 12968 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request START [ID:88d90484-4736-4a30-954c-cf4a1388dca4]: GET /api/products from 0:0:0:0:0:0:0:1
+2025-04-24T12:11:09.964+06:00  INFO 12968 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:88d90484-4736-4a30-954c-cf4a1388dca4]: Status 200 in 373ms
+2025-04-24T12:11:24.157+06:00  WARN 12968 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.s.e.CustomAuthenticationEntryPoint : Authentication failed: Full authentication is required to access this resource
+2025-04-24T12:12:43.205+06:00  INFO 12968 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request START [ID:944c9377-67c4-4380-8cb1-6ec4343007da]: POST /api/auth/login from 0:0:0:0:0:0:0:1
+2025-04-24T12:12:43.493+06:00  INFO 12968 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:944c9377-67c4-4380-8cb1-6ec4343007da]: Status 200 in 288ms
+2025-04-24T12:13:08.913+06:00  INFO 12968 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request START [ID:2d0ae4e2-1c6f-468c-848f-b5371b9281f9]: DELETE /api/products/3 from 0:0:0:0:0:0:0:1
+2025-04-24T12:13:09.956+06:00  WARN 12968 --- [dream-shops] [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2025-04-24T12:13:09.956+06:00 ERROR 12968 --- [dream-shops] [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`dream_shops_db`.`cart`, CONSTRAINT `FK3d704slv66tw6x5hmbm6p2x3u` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`))
+2025-04-24T12:13:09.970+06:00  INFO 12968 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:2d0ae4e2-1c6f-468c-848f-b5371b9281f9]: Status 500 in 1057ms
+2025-04-24T12:32:22.685+06:00  INFO 13928 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Starting DreamShopsApplication using Java 21.0.6 with PID 13928 (D:\github\CrossSkill_J2EE_Sabbir\build\classes\java\main started by BJIT in D:\github\CrossSkill_J2EE_Sabbir)
+2025-04-24T12:32:22.697+06:00  INFO 13928 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-04-24T12:32:24.004+06:00  INFO 13928 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-24T12:32:24.119+06:00  INFO 13928 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 5 JPA repository interfaces.
+2025-04-24T12:32:25.202+06:00  INFO 13928 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-24T12:32:25.223+06:00  INFO 13928 --- [dream-shops] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-24T12:32:25.224+06:00  INFO 13928 --- [dream-shops] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-24T12:32:25.320+06:00  INFO 13928 --- [dream-shops] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-24T12:32:25.321+06:00  INFO 13928 --- [dream-shops] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2544 ms
+2025-04-24T12:32:25.564+06:00  INFO 13928 --- [dream-shops] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-24T12:32:25.647+06:00  INFO 13928 --- [dream-shops] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-24T12:32:25.704+06:00  INFO 13928 --- [dream-shops] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-24T12:32:26.165+06:00  INFO 13928 --- [dream-shops] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-24T12:32:26.202+06:00  INFO 13928 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-24T12:32:26.632+06:00  INFO 13928 --- [dream-shops] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@631944d4
+2025-04-24T12:32:26.636+06:00  INFO 13928 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-24T12:32:26.699+06:00  WARN 13928 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-24T12:32:26.700+06:00  WARN 13928 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-24T12:32:26.723+06:00  INFO 13928 --- [dream-shops] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-24T12:32:27.952+06:00  INFO 13928 --- [dream-shops] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-24T12:32:28.054+06:00  INFO 13928 --- [dream-shops] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T12:32:28.568+06:00  INFO 13928 --- [dream-shops] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-24T12:32:28.569+06:00  WARN 13928 --- [dream-shops] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-24T12:32:28.859+06:00  WARN 13928 --- [dream-shops] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-24T12:32:29.804+06:00  INFO 13928 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-24T12:32:29.824+06:00  INFO 13928 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Started DreamShopsApplication in 7.77 seconds (process running for 8.173)
+2025-04-24T12:32:31.647+06:00  INFO 13928 --- [dream-shops] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-24T12:32:31.648+06:00  INFO 13928 --- [dream-shops] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-24T12:32:31.651+06:00  INFO 13928 --- [dream-shops] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-24T12:32:32.009+06:00  INFO 13928 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request START [ID:82f488fc-a38a-49d8-9201-5811d1ad30af]: POST /api/products from 0:0:0:0:0:0:0:1
+2025-04-24T12:32:32.216+06:00  INFO 13928 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:82f488fc-a38a-49d8-9201-5811d1ad30af]: Status 201 in 207ms
+2025-04-24T12:35:42.722+06:00  INFO 3488 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Starting DreamShopsApplication using Java 21.0.6 with PID 3488 (D:\github\CrossSkill_J2EE_Sabbir\build\classes\java\main started by BJIT in D:\github\CrossSkill_J2EE_Sabbir)
+2025-04-24T12:35:42.729+06:00  INFO 3488 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-04-24T12:35:44.171+06:00  INFO 3488 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-24T12:35:44.295+06:00  INFO 3488 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 5 JPA repository interfaces.
+2025-04-24T12:35:45.197+06:00  INFO 3488 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-24T12:35:45.218+06:00  INFO 3488 --- [dream-shops] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-24T12:35:45.218+06:00  INFO 3488 --- [dream-shops] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-24T12:35:45.310+06:00  INFO 3488 --- [dream-shops] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-24T12:35:45.311+06:00  INFO 3488 --- [dream-shops] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2513 ms
+2025-04-24T12:35:45.572+06:00  INFO 3488 --- [dream-shops] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-24T12:35:45.656+06:00  INFO 3488 --- [dream-shops] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-24T12:35:45.713+06:00  INFO 3488 --- [dream-shops] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-24T12:35:46.164+06:00  INFO 3488 --- [dream-shops] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-24T12:35:46.218+06:00  INFO 3488 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-24T12:35:46.808+06:00  INFO 3488 --- [dream-shops] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ffa91dc
+2025-04-24T12:35:46.812+06:00  INFO 3488 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-24T12:35:46.872+06:00  WARN 3488 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-24T12:35:46.874+06:00  WARN 3488 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-24T12:35:46.901+06:00  INFO 3488 --- [dream-shops] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-24T12:35:48.266+06:00  INFO 3488 --- [dream-shops] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-24T12:35:48.366+06:00  INFO 3488 --- [dream-shops] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-24T12:35:48.926+06:00  INFO 3488 --- [dream-shops] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-24T12:35:48.927+06:00  WARN 3488 --- [dream-shops] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-24T12:35:49.249+06:00  WARN 3488 --- [dream-shops] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-24T12:35:50.296+06:00  INFO 3488 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-24T12:35:50.315+06:00  INFO 3488 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Started DreamShopsApplication in 8.381 seconds (process running for 9.041)
+2025-04-24T12:35:55.222+06:00  INFO 3488 --- [dream-shops] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-24T12:35:55.223+06:00  INFO 3488 --- [dream-shops] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-24T12:35:55.224+06:00  INFO 3488 --- [dream-shops] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-24T12:35:55.258+06:00  INFO 3488 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request START [ID:30c6778f-fe6f-4b7f-bbd0-fa744710b48f]: GET /api/products from 0:0:0:0:0:0:0:1
+2025-04-24T12:35:55.502+06:00  INFO 3488 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:30c6778f-fe6f-4b7f-bbd0-fa744710b48f]: Status 200 in 245ms
+2025-04-24T12:36:00.480+06:00  INFO 3488 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request START [ID:cfe06953-5d93-4dc2-bfe4-eccf9ab83f6d]: GET /api/cart from 0:0:0:0:0:0:0:1
+2025-04-24T12:36:00.571+06:00  INFO 3488 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:cfe06953-5d93-4dc2-bfe4-eccf9ab83f6d]: Status 200 in 91ms
+2025-04-24T12:36:07.481+06:00  INFO 3488 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request START [ID:70311845-fee0-4bee-b2a1-80207cbbf560]: POST /api/cart from 0:0:0:0:0:0:0:1
+2025-04-24T12:36:07.628+06:00  INFO 3488 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:70311845-fee0-4bee-b2a1-80207cbbf560]: Status 201 in 147ms
+2025-04-24T12:36:10.464+06:00  INFO 3488 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request START [ID:6f5dd46f-97d1-477c-bb01-6f33fc51771c]: POST /api/cart from 0:0:0:0:0:0:0:1
+2025-04-24T12:36:10.500+06:00  INFO 3488 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:6f5dd46f-97d1-477c-bb01-6f33fc51771c]: Status 201 in 37ms
+2025-04-24T12:36:17.095+06:00  INFO 3488 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request START [ID:c2fadc76-8148-4dd7-b635-aec69fd68b1e]: POST /api/cart from 0:0:0:0:0:0:0:1
+2025-04-24T12:36:17.106+06:00  INFO 3488 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:c2fadc76-8148-4dd7-b635-aec69fd68b1e]: Status 500 in 12ms

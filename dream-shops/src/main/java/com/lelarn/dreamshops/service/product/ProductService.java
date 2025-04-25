@@ -1,15 +1,18 @@
 package com.lelarn.dreamshops.service.product;
 
 import java.util.List;
-import java.util.Optional;
 
+import org.springframework.dao.EmptyResultDataAccessException; // Import this
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.lelarn.dreamshops.exceptions.ProductNotFoundException;
 import com.lelarn.dreamshops.model.Category;
 import com.lelarn.dreamshops.model.Product;
 import com.lelarn.dreamshops.repository.ProductRepository;
 import com.lelarn.dreamshops.repository.CategoryRepository;
+import com.lelarn.dreamshops.repository.ProductSpecification;
 import com.lelarn.dreamshops.request.AddProductRequest;
 
 import lombok.RequiredArgsConstructor;
@@ -22,27 +25,26 @@ public class ProductService implements IProductService {
   private final CategoryRepository categoryRepository;
 
   @Override
+  @Transactional
   public Product addProduct(AddProductRequest request) {
     Category category = null;
-    if (request.getCategory() != null) {
+    if (request.getCategory() != null && request.getCategory().getName() != null) {
       category = categoryRepository.findByName(request.getCategory().getName());
       if (category == null) {
-        category = new Category(request.getCategory().getName());
-        category = categoryRepository.save(category);
+         category = new Category(request.getCategory().getName());
+         category = categoryRepository.save(category);
       }
     }
 
-    return productRepository.save(createProduct(request, category));
-  }
+    Product newProduct = new Product();
+    newProduct.setName(request.getName());
+    newProduct.setBrand(request.getBrand());
+    newProduct.setPrice(request.getPrice());
+    newProduct.setInventory(request.getInventory());
+    newProduct.setDescription(request.getDescription());
+    newProduct.setCategory(category);
 
-  private Product createProduct(AddProductRequest product, Category category) {
-    return new Product(
-        product.getName(),
-        product.getBrand(),
-        product.getPrice(),
-        product.getInventory(),
-        product.getDescription(),
-        category);
+    return productRepository.save(newProduct);
   }
 
   @Override
@@ -52,67 +54,50 @@ public class ProductService implements IProductService {
   }
 
   @Override
-  public void deleteProductById(Long id) {
-    Product product = getProductById(id);
-    productRepository.delete(product);
-  }
-
-  @Override
-  public void updateProduct(Product updatedProduct, Long productId) {
+  @Transactional
+  public Product updateProduct(Long productId, AddProductRequest request) {
     Product existingProduct = getProductById(productId);
 
-    // Update product fields
-    existingProduct.setName(updatedProduct.getName());
-    existingProduct.setBrand(updatedProduct.getBrand());
-    existingProduct.setPrice(updatedProduct.getPrice());
-    existingProduct.setInventory(updatedProduct.getInventory());
-    existingProduct.setDescription(updatedProduct.getDescription());
+    existingProduct.setName(request.getName());
+    existingProduct.setBrand(request.getBrand());
+    existingProduct.setPrice(request.getPrice());
+    existingProduct.setInventory(request.getInventory());
+    existingProduct.setDescription(request.getDescription());
 
-    // Update category if provided
-    if (updatedProduct.getCategory() != null) {
-      Category category = categoryRepository.findByName(updatedProduct.getCategory().getName());
+    if (request.getCategory() != null && request.getCategory().getName() != null) {
+      Category category = categoryRepository.findByName(request.getCategory().getName());
       if (category == null) {
-        category = new Category(updatedProduct.getCategory().getName());
-        category = categoryRepository.save(category);
+         category = new Category(request.getCategory().getName());
+         category = categoryRepository.save(category);
       }
       existingProduct.setCategory(category);
+    } else {
+       existingProduct.setCategory(null); // Allow setting category to null
     }
 
-    productRepository.save(existingProduct);
+    return productRepository.save(existingProduct);
   }
 
-  @Override
-  public List<Product> getAllProducts() {
-    return productRepository.findAll();
-  }
+    @Override
+    public List<Product> getFilteredProducts(
+            String category,
+            String brand,
+            String name
+    ){
+      Specification<Product> spec = ProductSpecification.filterBy(category, brand, name);
+      return productRepository.findAll(spec);
+    }
 
-  @Override
-  public List<Product> getProductsByCategory(String category) {
-    return productRepository.findByCategoryName(category);
-  }
-
-  @Override
-  public List<Product> getProductsByBrand(String brand) {
-    return productRepository.findByBrand(brand);
-  }
-
-  @Override
-  public List<Product> getProductsByCategoryAndBrand(String category, String brand) {
-    return productRepository.findByCategoryNameAndBrand(category, brand);
-  }
-
-  @Override
-  public List<Product> getProductsByName(String name) {
-    return productRepository.findByName(name);
-  }
-
-  @Override
-  public List<Product> getProductsByBrandAndName(String brand, String name) {
-    return productRepository.findByBrandAndName(brand, name);
-  }
-
-  @Override
-  public long countProductsByBrandAndName(String brand, String name) {
-    return productRepository.countByBrandAndName(brand, name);
-  }
+    @Override
+    @Transactional
+    public void deleteProductById(Long id) {
+        if (!productRepository.existsById(id)) {
+            throw new ProductNotFoundException("Product not found with id: " + id);
+        }
+        try {
+            productRepository.deleteById(id);
+        } catch (EmptyResultDataAccessException e) {
+             throw new ProductNotFoundException("Product not found with id: " + id);
+        }
+    }
 }

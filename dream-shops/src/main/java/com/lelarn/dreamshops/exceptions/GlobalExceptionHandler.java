@@ -14,21 +14,9 @@ import java.util.Map;
 @ControllerAdvice
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
-  @ExceptionHandler(ProductNotFoundException.class)
-  public ResponseEntity<Object> handleProductNotFoundException(
-      ProductNotFoundException ex, WebRequest request) {
-    return createErrorResponse(ex, HttpStatus.NOT_FOUND);
-  }
-
-  @ExceptionHandler(CategoryNotFoundException.class)
-  public ResponseEntity<Object> handleCategoryNotFoundException(
-      CategoryNotFoundException ex, WebRequest request) {
-    return createErrorResponse(ex, HttpStatus.NOT_FOUND);
-  }
-
-  @ExceptionHandler(ImageNotFoundException.class)
-  public ResponseEntity<Object> handleImageNotFoundException(
-      ImageNotFoundException ex, WebRequest request) {
+  @ExceptionHandler(ResourceNotFoundException.class)
+  public ResponseEntity<Object> handleResourceNotFoundException(
+      ResourceNotFoundException ex, WebRequest request) {
     return createErrorResponse(ex, HttpStatus.NOT_FOUND);
   }
 
