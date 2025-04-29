@@ -1,22 +1,22 @@
-2025-04-25T12:09:57.845+06:00  INFO 22584 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Starting DreamShopsApplication using Java 21.0.6 with PID 22584 (F:\React\tesseractOCR\Accounting\Acounter\learn-springboot-2025\dream-shops\build\classes\java\main started by asabb in F:\React\tesseractOCR\Accounting\Acounter\learn-springboot-2025)
-2025-04-25T12:09:57.849+06:00  INFO 22584 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : No active profile set, falling back to 1 default profile: "default"
-2025-04-25T12:09:58.702+06:00  INFO 22584 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-25T12:09:58.781+06:00  INFO 22584 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 5 JPA repository interfaces.
-2025-04-25T12:09:59.450+06:00  INFO 22584 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-25T12:09:59.466+06:00  INFO 22584 --- [dream-shops] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-25T12:09:59.467+06:00  INFO 22584 --- [dream-shops] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-25T12:09:59.532+06:00  INFO 22584 --- [dream-shops] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-25T12:09:59.532+06:00  INFO 22584 --- [dream-shops] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1634 ms
-2025-04-25T12:09:59.743+06:00  INFO 22584 --- [dream-shops] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-25T12:09:59.820+06:00  INFO 22584 --- [dream-shops] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-25T12:09:59.859+06:00  INFO 22584 --- [dream-shops] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-25T12:10:00.208+06:00  INFO 22584 --- [dream-shops] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-25T12:10:00.243+06:00  INFO 22584 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-25T12:10:00.605+06:00  INFO 22584 --- [dream-shops] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ffa91dc
-2025-04-25T12:10:00.608+06:00  INFO 22584 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-25T12:10:00.682+06:00  WARN 22584 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-25T12:10:00.683+06:00  WARN 22584 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-04-25T12:10:00.698+06:00  INFO 22584 --- [dream-shops] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-27T10:37:42.995+06:00  INFO 1876 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Starting DreamShopsApplication using Java 21.0.6 with PID 1876 (F:\React\tesseractOCR\Accounting\Acounter\learn-springboot-2025\dream-shops\build\classes\java\main started by asabb in F:\React\tesseractOCR\Accounting\Acounter\learn-springboot-2025)
+2025-04-27T10:37:43.004+06:00  INFO 1876 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-04-27T10:37:43.893+06:00  INFO 1876 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-27T10:37:43.984+06:00  INFO 1876 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 5 JPA repository interfaces.
+2025-04-27T10:37:44.625+06:00  INFO 1876 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-27T10:37:44.639+06:00  INFO 1876 --- [dream-shops] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-27T10:37:44.639+06:00  INFO 1876 --- [dream-shops] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-27T10:37:44.693+06:00  INFO 1876 --- [dream-shops] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-27T10:37:44.694+06:00  INFO 1876 --- [dream-shops] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1638 ms
+2025-04-27T10:37:44.862+06:00  INFO 1876 --- [dream-shops] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-27T10:37:44.917+06:00  INFO 1876 --- [dream-shops] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-27T10:37:44.951+06:00  INFO 1876 --- [dream-shops] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-27T10:37:45.266+06:00  INFO 1876 --- [dream-shops] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-27T10:37:45.300+06:00  INFO 1876 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-27T10:37:45.818+06:00  INFO 1876 --- [dream-shops] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bc8d68b
+2025-04-27T10:37:45.819+06:00  INFO 1876 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-27T10:37:45.898+06:00  WARN 1876 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-27T10:37:45.900+06:00  WARN 1876 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-04-27T10:37:45.919+06:00  INFO 1876 --- [dream-shops] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0
@@ -24,30 +24,38 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-25T12:10:01.630+06:00  INFO 22584 --- [dream-shops] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-25T12:10:02.302+06:00  INFO 22584 --- [dream-shops] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-25T12:10:02.757+06:00  INFO 22584 --- [dream-shops] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-25T12:10:02.758+06:00  WARN 22584 --- [dream-shops] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-25T12:10:02.924+06:00  WARN 22584 --- [dream-shops] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-25T12:10:03.512+06:00  INFO 22584 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-25T12:10:03.522+06:00  INFO 22584 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Started DreamShopsApplication in 6.683 seconds (process running for 7.196)
-2025-04-25T12:10:32.185+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-25T12:10:32.186+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-25T12:10:32.187+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-04-25T12:10:32.217+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request START [ID:67bf2ad4-a7f6-443a-ad1f-18be2d384fc1]: POST /api/auth/login from 0:0:0:0:0:0:0:1
-2025-04-25T12:10:32.595+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:67bf2ad4-a7f6-443a-ad1f-18be2d384fc1]: Status 500 in 378ms
-2025-04-25T12:11:48.189+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request START [ID:12955e5c-c1d6-4d66-8ca8-bb3b2a08b278]: POST /api/auth/register from 0:0:0:0:0:0:0:1
-2025-04-25T12:11:48.815+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:12955e5c-c1d6-4d66-8ca8-bb3b2a08b278]: Status 200 in 626ms
-2025-04-25T12:13:08.169+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request START [ID:b5ba51c3-5039-45d2-8609-0aaef2da5af5]: POST /api/auth/register from 0:0:0:0:0:0:0:1
-2025-04-25T12:13:08.263+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:b5ba51c3-5039-45d2-8609-0aaef2da5af5]: Status 200 in 94ms
-2025-04-25T12:13:41.394+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request START [ID:85f16b20-074f-4a2b-bdba-56298bbb1393]: POST /api/auth/login from 0:0:0:0:0:0:0:1
-2025-04-25T12:13:41.471+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:85f16b20-074f-4a2b-bdba-56298bbb1393]: Status 200 in 77ms
-2025-04-25T12:14:14.261+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request START [ID:52e20a1b-24ba-47f8-b153-87064d36871c]: POST /api/auth/login from 0:0:0:0:0:0:0:1
-2025-04-25T12:14:14.349+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:52e20a1b-24ba-47f8-b153-87064d36871c]: Status 200 in 88ms
-2025-04-25T12:14:44.896+06:00 ERROR 22584 --- [dream-shops] [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+2025-04-27T10:37:46.811+06:00  INFO 1876 --- [dream-shops] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-27T10:37:46.939+06:00  INFO 1876 --- [dream-shops] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-27T10:37:47.286+06:00  INFO 1876 --- [dream-shops] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-27T10:37:47.287+06:00  WARN 1876 --- [dream-shops] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-27T10:37:47.470+06:00  WARN 1876 --- [dream-shops] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-27T10:37:48.038+06:00  INFO 1876 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-27T10:37:48.046+06:00  INFO 1876 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Started DreamShopsApplication in 5.498 seconds (process running for 5.825)
+2025-04-27T10:43:41.612+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-27T10:43:41.613+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-27T10:43:41.614+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-27T10:43:41.649+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request START [ID:32b83108-7317-4a26-b6a0-2c01d946c38c]: GET /api/products/5 from 0:0:0:0:0:0:0:1
+2025-04-27T10:43:41.818+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:32b83108-7317-4a26-b6a0-2c01d946c38c]: Status 500 in 170ms
+2025-04-27T10:44:14.449+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request START [ID:f65e1cb2-2fed-4278-bb87-e55fa30e33d9]: GET /api/products?page=1&size=2&sort=price from 0:0:0:0:0:0:0:1
+2025-04-27T10:44:14.627+06:00  WARN 1876 --- [dream-shops] [http-nio-8080-exec-4] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
-io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period characters. Found: 0
-	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:275) ~[jjwt-impl-0.11.5.jar:0.11.5]
+2025-04-27T10:44:14.646+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:f65e1cb2-2fed-4278-bb87-e55fa30e33d9]: Status 200 in 197ms
+2025-04-27T10:44:24.891+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request START [ID:be229916-9b97-430f-9557-f4ec1003e061]: GET /api/products from 0:0:0:0:0:0:0:1
+2025-04-27T10:44:24.927+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:be229916-9b97-430f-9557-f4ec1003e061]: Status 200 in 37ms
+2025-04-27T10:44:35.311+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request START [ID:9a9d988d-7d30-48fa-9966-e51de8113ac2]: GET /api/products?size=2 from 0:0:0:0:0:0:0:1
+2025-04-27T10:44:35.328+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:9a9d988d-7d30-48fa-9966-e51de8113ac2]: Status 200 in 17ms
+2025-04-27T10:44:42.358+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request START [ID:b55cf862-cd96-4968-8cb5-797371ee7a6e]: GET /api/products?page=1&size=2 from 0:0:0:0:0:0:0:1
+2025-04-27T10:44:42.377+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:b55cf862-cd96-4968-8cb5-797371ee7a6e]: Status 200 in 19ms
+2025-04-27T10:44:46.357+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request START [ID:eedfdc1f-b3a9-4cf1-9fc4-8b7e55f8eef0]: GET /api/products?page=0&size=2 from 0:0:0:0:0:0:0:1
+2025-04-27T10:44:46.375+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:eedfdc1f-b3a9-4cf1-9fc4-8b7e55f8eef0]: Status 200 in 18ms
+2025-04-27T10:44:49.975+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request START [ID:1299e62c-0fdd-41fe-8ac2-d746a45555a4]: GET /api/products?page=3&size=2 from 0:0:0:0:0:0:0:1
+2025-04-27T10:44:49.994+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:1299e62c-0fdd-41fe-8ac2-d746a45555a4]: Status 200 in 19ms
+2025-04-27T10:45:17.505+06:00 ERROR 1876 --- [dream-shops] [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2025-04-26T06:14:14Z. Current time: 2025-04-27T04:45:17Z, a difference of 81063504 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:427) ~[jjwt-impl-0.11.5.jar:0.11.5]
 	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529) ~[jjwt-impl-0.11.5.jar:0.11.5]
 	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589) ~[jjwt-impl-0.11.5.jar:0.11.5]
 	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173) ~[jjwt-impl-0.11.5.jar:0.11.5]
@@ -113,261 +121,158 @@ io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2025-04-25T12:14:44.911+06:00  WARN 22584 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.s.e.CustomAuthenticationEntryPoint : Authentication failed: Full authentication is required to access this resource
-2025-04-25T12:14:54.800+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request START [ID:eeb98314-d5bd-47c4-bbc5-e467971e621d]: POST /api/auth/login from 0:0:0:0:0:0:0:1
-2025-04-25T12:14:54.874+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:eeb98314-d5bd-47c4-bbc5-e467971e621d]: Status 200 in 74ms
-2025-04-25T12:15:20.823+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request START [ID:baf4976c-8329-45cc-a1ab-fecc1791af7a]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:15:20.950+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:baf4976c-8329-45cc-a1ab-fecc1791af7a]: Status 201 in 127ms
-2025-04-25T12:15:54.340+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request START [ID:cbf54f8b-808d-4c9f-9112-388fa673ba40]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:15:54.370+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:cbf54f8b-808d-4c9f-9112-388fa673ba40]: Status 201 in 30ms
-2025-04-25T12:16:00.941+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request START [ID:07e0e4e1-9b28-4748-83fb-e6bd3c2ae92d]: GET /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:16:00.989+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:07e0e4e1-9b28-4748-83fb-e6bd3c2ae92d]: Status 200 in 48ms
-2025-04-25T12:16:18.335+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request START [ID:3b8ed397-2f11-4b9c-8cea-ecf0111d6dda]: DELETE /api/products/1 from 0:0:0:0:0:0:0:1
-2025-04-25T12:16:19.029+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:3b8ed397-2f11-4b9c-8cea-ecf0111d6dda]: Status 200 in 694ms
-2025-04-25T12:16:21.282+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request START [ID:54bce6ec-8352-4e36-88d2-f90886e16dd9]: DELETE /api/products/2 from 0:0:0:0:0:0:0:1
-2025-04-25T12:16:21.316+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:54bce6ec-8352-4e36-88d2-f90886e16dd9]: Status 200 in 34ms
-2025-04-25T12:16:22.892+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request START [ID:1d4772a3-da30-41c4-9bfe-8ae08478b142]: DELETE /api/products/3 from 0:0:0:0:0:0:0:1
-2025-04-25T12:16:22.916+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:1d4772a3-da30-41c4-9bfe-8ae08478b142]: Status 200 in 24ms
-2025-04-25T12:16:24.595+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request START [ID:35e727fb-6da0-46ac-b484-d1621a2084fb]: DELETE /api/products/4 from 0:0:0:0:0:0:0:1
-2025-04-25T12:16:24.616+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:35e727fb-6da0-46ac-b484-d1621a2084fb]: Status 200 in 21ms
-2025-04-25T12:16:25.855+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request START [ID:cf6044a5-8ee1-495d-94fd-fa84a8f011a9]: DELETE /api/products/5 from 0:0:0:0:0:0:0:1
-2025-04-25T12:16:25.869+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:cf6044a5-8ee1-495d-94fd-fa84a8f011a9]: Status 500 in 14ms
-2025-04-25T12:16:31.794+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request START [ID:0f1e803b-6a5d-42fd-bc58-af7131568cd9]: DELETE /api/products/1 from 0:0:0:0:0:0:0:1
-2025-04-25T12:16:31.802+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:0f1e803b-6a5d-42fd-bc58-af7131568cd9]: Status 500 in 8ms
-2025-04-25T12:16:36.170+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request START [ID:9eef0b28-b3e7-4809-af8d-9a824611c346]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:16:36.191+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:9eef0b28-b3e7-4809-af8d-9a824611c346]: Status 201 in 21ms
-2025-04-25T12:16:38.948+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request START [ID:352ca767-6df7-4f41-9daa-e64e3911e0d3]: GET /api/products/3 from 0:0:0:0:0:0:0:1
-2025-04-25T12:16:38.956+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:352ca767-6df7-4f41-9daa-e64e3911e0d3]: Status 500 in 8ms
-2025-04-25T12:16:42.639+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request START [ID:f327817e-0638-4bc5-9721-770b613003a0]: GET /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:16:42.649+06:00  INFO 22584 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:f327817e-0638-4bc5-9721-770b613003a0]: Status 200 in 10ms
-2025-04-25T12:22:17.828+06:00  INFO 23272 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Starting DreamShopsApplication using Java 21.0.6 with PID 23272 (F:\React\tesseractOCR\Accounting\Acounter\learn-springboot-2025\dream-shops\build\classes\java\main started by asabb in F:\React\tesseractOCR\Accounting\Acounter\learn-springboot-2025)
-2025-04-25T12:22:17.832+06:00  INFO 23272 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : No active profile set, falling back to 1 default profile: "default"
-2025-04-25T12:22:18.586+06:00  INFO 23272 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-25T12:22:18.663+06:00  INFO 23272 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 5 JPA repository interfaces.
-2025-04-25T12:22:19.279+06:00  INFO 23272 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-25T12:22:19.293+06:00  INFO 23272 --- [dream-shops] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-25T12:22:19.293+06:00  INFO 23272 --- [dream-shops] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-25T12:22:19.353+06:00  INFO 23272 --- [dream-shops] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-25T12:22:19.374+06:00  INFO 23272 --- [dream-shops] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1495 ms
-2025-04-25T12:22:19.543+06:00  INFO 23272 --- [dream-shops] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-25T12:22:19.595+06:00  INFO 23272 --- [dream-shops] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-25T12:22:19.642+06:00  INFO 23272 --- [dream-shops] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-25T12:22:19.898+06:00  INFO 23272 --- [dream-shops] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-25T12:22:19.932+06:00  INFO 23272 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-25T12:22:20.229+06:00  INFO 23272 --- [dream-shops] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3fd33f48
-2025-04-25T12:22:20.232+06:00  INFO 23272 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-25T12:22:20.268+06:00  WARN 23272 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-25T12:22:20.269+06:00  WARN 23272 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-04-25T12:22:20.286+06:00  INFO 23272 --- [dream-shops] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-04-25T12:22:21.126+06:00  INFO 23272 --- [dream-shops] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-25T12:22:21.208+06:00  INFO 23272 --- [dream-shops] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-25T12:22:21.669+06:00  INFO 23272 --- [dream-shops] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-25T12:22:21.669+06:00  WARN 23272 --- [dream-shops] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-25T12:22:21.906+06:00  WARN 23272 --- [dream-shops] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-25T12:22:22.502+06:00  INFO 23272 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-25T12:22:22.511+06:00  INFO 23272 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Started DreamShopsApplication in 5.209 seconds (process running for 5.587)
-2025-04-25T12:22:28.723+06:00  INFO 23272 --- [dream-shops] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-25T12:22:28.723+06:00  INFO 23272 --- [dream-shops] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-25T12:22:28.725+06:00  INFO 23272 --- [dream-shops] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-04-25T12:22:28.746+06:00  INFO 23272 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request START [ID:fb7d7842-8c1d-4c65-b035-0903cbcb31f9]: GET /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:22:28.995+06:00  INFO 23272 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:fb7d7842-8c1d-4c65-b035-0903cbcb31f9]: Status 200 in 249ms
-2025-04-25T12:22:32.603+06:00  INFO 23272 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request START [ID:1f2918bc-0221-4646-b37e-55dc58ed368e]: GET /api/products/3 from 0:0:0:0:0:0:0:1
-2025-04-25T12:22:32.616+06:00  INFO 23272 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:1f2918bc-0221-4646-b37e-55dc58ed368e]: Status 500 in 13ms
-2025-04-25T12:34:17.770+06:00  INFO 18040 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Starting DreamShopsApplication using Java 21.0.6 with PID 18040 (F:\React\tesseractOCR\Accounting\Acounter\learn-springboot-2025\dream-shops\build\classes\java\main started by asabb in F:\React\tesseractOCR\Accounting\Acounter\learn-springboot-2025)
-2025-04-25T12:34:17.773+06:00  INFO 18040 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : No active profile set, falling back to 1 default profile: "default"
-2025-04-25T12:34:18.489+06:00  INFO 18040 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-25T12:34:18.562+06:00  INFO 18040 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 5 JPA repository interfaces.
-2025-04-25T12:34:19.189+06:00  INFO 18040 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-25T12:34:19.204+06:00  INFO 18040 --- [dream-shops] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-25T12:34:19.204+06:00  INFO 18040 --- [dream-shops] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-25T12:34:19.258+06:00  INFO 18040 --- [dream-shops] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-25T12:34:19.259+06:00  INFO 18040 --- [dream-shops] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1430 ms
-2025-04-25T12:34:19.399+06:00  INFO 18040 --- [dream-shops] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-25T12:34:19.449+06:00  INFO 18040 --- [dream-shops] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-25T12:34:19.503+06:00  INFO 18040 --- [dream-shops] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-25T12:34:19.766+06:00  INFO 18040 --- [dream-shops] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-25T12:34:19.802+06:00  INFO 18040 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-25T12:34:20.118+06:00  INFO 18040 --- [dream-shops] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@225e09f0
-2025-04-25T12:34:20.119+06:00  INFO 18040 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-25T12:34:20.160+06:00  WARN 18040 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-25T12:34:20.162+06:00  WARN 18040 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-04-25T12:34:20.184+06:00  INFO 18040 --- [dream-shops] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-04-25T12:34:21.275+06:00  INFO 18040 --- [dream-shops] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-25T12:34:21.365+06:00  INFO 18040 --- [dream-shops] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-25T12:34:21.746+06:00  INFO 18040 --- [dream-shops] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-25T12:34:21.746+06:00  WARN 18040 --- [dream-shops] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-25T12:34:21.904+06:00  WARN 18040 --- [dream-shops] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-25T12:34:22.440+06:00  INFO 18040 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-25T12:34:22.448+06:00  INFO 18040 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Started DreamShopsApplication in 5.158 seconds (process running for 5.451)
-2025-04-25T12:36:33.172+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-25T12:36:33.173+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-25T12:36:33.174+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-04-25T12:36:33.478+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request START [ID:ebc4883e-08ec-4dec-86c7-6384c4590ac3]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:36:33.743+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:ebc4883e-08ec-4dec-86c7-6384c4590ac3]: Status 201 in 265ms
-2025-04-25T12:36:40.364+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request START [ID:34c43105-07ae-4d17-a3f4-5ff6d2d190f1]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:36:40.382+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:34c43105-07ae-4d17-a3f4-5ff6d2d190f1]: Status 201 in 18ms
-2025-04-25T12:36:55.079+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request START [ID:16f6bd8f-0550-420d-a674-8cd465d9dad5]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:36:55.099+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:16f6bd8f-0550-420d-a674-8cd465d9dad5]: Status 400 in 20ms
-2025-04-25T12:36:59.283+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request START [ID:7cb01614-b252-4144-9c05-b47df0270b77]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:36:59.302+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:7cb01614-b252-4144-9c05-b47df0270b77]: Status 201 in 19ms
-2025-04-25T12:37:08.780+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.filter.RequestLoggingFilter        : Request START [ID:22ede3c7-fa25-4461-b10b-f0daba10bae0]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:37:08.816+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:22ede3c7-fa25-4461-b10b-f0daba10bae0]: Status 201 in 36ms
-2025-04-25T12:37:15.636+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request START [ID:9cd185c1-299c-429d-af31-8aae6cae2805]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:37:15.653+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:9cd185c1-299c-429d-af31-8aae6cae2805]: Status 201 in 17ms
-2025-04-25T12:37:22.632+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request START [ID:b6644afd-9558-43b1-8c9e-70b2c78a5b71]: GET /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:37:22.672+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:b6644afd-9558-43b1-8c9e-70b2c78a5b71]: Status 200 in 40ms
-2025-04-25T12:37:44.408+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request START [ID:9947a789-257a-4e0d-bac6-33257eb11541]: GET /api/products?brand=GG from 0:0:0:0:0:0:0:1
-2025-04-25T12:37:44.429+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:9947a789-257a-4e0d-bac6-33257eb11541]: Status 200 in 21ms
-2025-04-25T12:38:19.278+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request START [ID:12f75c2c-62a9-4691-91f5-19e157beadb6]: GET /api/products?page=0&size=2 from 0:0:0:0:0:0:0:1
-2025-04-25T12:38:19.289+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:12f75c2c-62a9-4691-91f5-19e157beadb6]: Status 200 in 11ms
-2025-04-25T12:38:26.837+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request START [ID:45047ba2-4bc7-4561-950f-6366d4529a51]: GET /api/products?page=0&size=2 from 0:0:0:0:0:0:0:1
-2025-04-25T12:38:26.847+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:45047ba2-4bc7-4561-950f-6366d4529a51]: Status 200 in 10ms
-2025-04-25T12:38:35.052+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request START [ID:9b7d05de-6468-4b31-bf2d-6aa9c5820577]: GET /api/products?page=1&size=2 from 0:0:0:0:0:0:0:1
-2025-04-25T12:38:35.062+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:9b7d05de-6468-4b31-bf2d-6aa9c5820577]: Status 200 in 10ms
-2025-04-25T12:38:38.135+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request START [ID:a26c859c-a5f0-4bca-8652-41112fc5f77b]: GET /api/products?page=2&size=2 from 0:0:0:0:0:0:0:1
-2025-04-25T12:38:38.147+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:a26c859c-a5f0-4bca-8652-41112fc5f77b]: Status 200 in 14ms
-2025-04-25T12:38:53.477+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request START [ID:3c255afb-1d7f-4f6a-a833-42e0d9e448d7]: GET /api/products?page=2&size=2 from 0:0:0:0:0:0:0:1
-2025-04-25T12:38:53.487+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:3c255afb-1d7f-4f6a-a833-42e0d9e448d7]: Status 200 in 11ms
-2025-04-25T12:41:15.841+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request START [ID:3c6ef4a6-db33-4551-a718-e1a0957079a5]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:41:15.864+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:3c6ef4a6-db33-4551-a718-e1a0957079a5]: Status 201 in 23ms
-2025-04-25T12:41:22.449+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request START [ID:8be1daf0-1781-427e-a527-cf0135ccee44]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:41:22.466+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:8be1daf0-1781-427e-a527-cf0135ccee44]: Status 201 in 17ms
-2025-04-25T12:41:25.386+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request START [ID:30e260ce-d17b-412c-9109-08c04c7a0011]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:41:25.406+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:30e260ce-d17b-412c-9109-08c04c7a0011]: Status 201 in 20ms
-2025-04-25T12:41:29.832+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request START [ID:7c1fe2dc-7c92-45e7-a2b7-504d93926698]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:41:29.849+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:7c1fe2dc-7c92-45e7-a2b7-504d93926698]: Status 201 in 17ms
-2025-04-25T12:41:35.660+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request START [ID:82bac138-8f65-4843-8721-019c7e60c67f]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:41:35.672+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:82bac138-8f65-4843-8721-019c7e60c67f]: Status 201 in 12ms
-2025-04-25T12:41:42.033+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request START [ID:e8722c90-324d-4aad-be9e-3390004827cc]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T12:41:42.047+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:e8722c90-324d-4aad-be9e-3390004827cc]: Status 201 in 15ms
-2025-04-25T12:41:47.858+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request START [ID:a818addb-30aa-4762-8c0c-65aa233e9169]: GET /api/products/3 from 0:0:0:0:0:0:0:1
-2025-04-25T12:41:47.869+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:a818addb-30aa-4762-8c0c-65aa233e9169]: Status 500 in 11ms
-2025-04-25T12:41:53.781+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request START [ID:4be7616f-5038-4600-bf11-2a42cc608471]: GET /api/products?page=2&size=2&sort=name&brand=GG&name= from 0:0:0:0:0:0:0:1
-2025-04-25T12:41:53.791+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:4be7616f-5038-4600-bf11-2a42cc608471]: Status 200 in 10ms
-2025-04-25T12:42:03.777+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.filter.RequestLoggingFilter        : Request START [ID:bcb81d7b-686b-4090-a076-92300926e4e6]: GET /api/products?page=0&size=2&sort=name&brand=GG&name= from 0:0:0:0:0:0:0:1
-2025-04-25T12:42:03.786+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:bcb81d7b-686b-4090-a076-92300926e4e6]: Status 200 in 10ms
-2025-04-25T12:42:09.602+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request START [ID:c2595ec6-e30c-410c-b3b5-21b961b719bd]: GET /api/products?page=0&size=2&name= from 0:0:0:0:0:0:0:1
-2025-04-25T12:42:09.612+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:c2595ec6-e30c-410c-b3b5-21b961b719bd]: Status 200 in 10ms
-2025-04-25T12:42:31.949+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request START [ID:3cf7e90b-11db-446b-9a68-f435ad21a159]: GET /api/products?page=1&size=2&name= from 0:0:0:0:0:0:0:1
-2025-04-25T12:42:31.960+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:3cf7e90b-11db-446b-9a68-f435ad21a159]: Status 200 in 11ms
-2025-04-25T12:43:50.560+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request START [ID:a139a795-3cff-477f-8de0-66691a7db640]: GET /api/products?sort=price from 0:0:0:0:0:0:0:1
-2025-04-25T12:43:50.570+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:a139a795-3cff-477f-8de0-66691a7db640]: Status 200 in 10ms
-2025-04-25T12:48:42.248+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request START [ID:9d6e2421-eb29-4e0b-9b02-554955858996]: GET /api/products?page=1&size=2&sort=price from 0:0:0:0:0:0:0:1
-2025-04-25T12:48:42.261+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:9d6e2421-eb29-4e0b-9b02-554955858996]: Status 200 in 13ms
-2025-04-25T12:48:43.677+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request START [ID:f185c6cc-4a10-47e9-986c-c97ce99dfafe]: GET /api/products?page=1&size=2&sort=price from 0:0:0:0:0:0:0:1
-2025-04-25T12:48:43.686+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:f185c6cc-4a10-47e9-986c-c97ce99dfafe]: Status 200 in 9ms
-2025-04-25T12:49:19.376+06:00  WARN 18040 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.s.error.CustomAccessDeniedHandler  : Access denied: Access Denied
-2025-04-25T12:49:32.213+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request START [ID:4601645e-8deb-4e9b-b566-65757c90b37c]: POST /api/products/5/images from 0:0:0:0:0:0:0:1
-2025-04-25T12:49:32.248+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:4601645e-8deb-4e9b-b566-65757c90b37c]: Status 404 in 35ms
-2025-04-25T12:51:29.989+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request START [ID:620277da-fa51-42a8-92b1-18c6dc91d15b]: POST /api/images/upload/5 from 0:0:0:0:0:0:0:1
-2025-04-25T12:51:30.006+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:620277da-fa51-42a8-92b1-18c6dc91d15b]: Status 400 in 17ms
-2025-04-25T12:54:52.818+06:00  WARN 18040 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.s.e.CustomAuthenticationEntryPoint : Authentication failed: Full authentication is required to access this resource
-2025-04-25T12:55:31.436+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request START [ID:45e0d216-2dde-4494-84d5-02cf7a0d4c4a]: POST /api/images/upload/5 from 0:0:0:0:0:0:0:1
-2025-04-25T12:55:31.789+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:45e0d216-2dde-4494-84d5-02cf7a0d4c4a]: Status 201 in 353ms
-2025-04-25T12:55:49.773+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request START [ID:679a1dd1-a46a-4be7-a87c-728c46b69145]: GET /api/products?page=1&size=2&sort=price from 0:0:0:0:0:0:0:1
-2025-04-25T12:55:49.786+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:679a1dd1-a46a-4be7-a87c-728c46b69145]: Status 200 in 13ms
-2025-04-25T12:55:59.088+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request START [ID:9883cb02-d09b-4c55-abeb-1e9e2a0b8459]: GET /api/products/5 from 0:0:0:0:0:0:0:1
-2025-04-25T12:55:59.093+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:9883cb02-d09b-4c55-abeb-1e9e2a0b8459]: Status 200 in 5ms
-2025-04-25T12:58:22.149+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request START [ID:866742ee-f569-4f22-b37c-fb71349e4038]: POST /api/images/upload/5 from 0:0:0:0:0:0:0:1
-2025-04-25T12:58:22.299+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:866742ee-f569-4f22-b37c-fb71349e4038]: Status 201 in 150ms
-2025-04-25T12:58:41.907+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request START [ID:b0e6de33-0821-48c3-906c-13f08bff81e5]: GET /api/images/product/5 from 0:0:0:0:0:0:0:1
-2025-04-25T12:58:41.955+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:b0e6de33-0821-48c3-906c-13f08bff81e5]: Status 200 in 48ms
-2025-04-25T12:59:41.341+06:00  WARN 18040 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.s.e.CustomAuthenticationEntryPoint : Authentication failed: Full authentication is required to access this resource
-2025-04-25T12:59:57.002+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request START [ID:2de8410c-cb6c-48f3-a646-c160afa1f3a0]: DELETE /api/images/1 from 0:0:0:0:0:0:0:1
-2025-04-25T12:59:57.034+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:2de8410c-cb6c-48f3-a646-c160afa1f3a0]: Status 204 in 32ms
-2025-04-25T13:08:59.148+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request START [ID:b81ad839-4a75-41ac-894f-43da4058df92]: POST /api/auth/login from 0:0:0:0:0:0:0:1
-2025-04-25T13:08:59.307+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:b81ad839-4a75-41ac-894f-43da4058df92]: Status 500 in 159ms
-2025-04-25T13:09:03.146+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.filter.RequestLoggingFilter        : Request START [ID:a11861f0-025d-4c5b-b9ad-e5fdb43e79d4]: POST /api/auth/login from 0:0:0:0:0:0:0:1
-2025-04-25T13:09:03.233+06:00  INFO 18040 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:a11861f0-025d-4c5b-b9ad-e5fdb43e79d4]: Status 200 in 88ms
-2025-04-25T13:09:11.081+06:00  INFO 23184 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Starting DreamShopsApplication using Java 21.0.6 with PID 23184 (F:\React\tesseractOCR\Accounting\Acounter\learn-springboot-2025\dream-shops\build\classes\java\main started by asabb in F:\React\tesseractOCR\Accounting\Acounter\learn-springboot-2025)
-2025-04-25T13:09:11.083+06:00  INFO 23184 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : No active profile set, falling back to 1 default profile: "default"
-2025-04-25T13:09:11.793+06:00  INFO 23184 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-25T13:09:11.875+06:00  INFO 23184 --- [dream-shops] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 5 JPA repository interfaces.
-2025-04-25T13:09:12.519+06:00  INFO 23184 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-04-25T13:09:12.532+06:00  INFO 23184 --- [dream-shops] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-04-25T13:09:12.533+06:00  INFO 23184 --- [dream-shops] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
-2025-04-25T13:09:12.574+06:00  INFO 23184 --- [dream-shops] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-04-25T13:09:12.575+06:00  INFO 23184 --- [dream-shops] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1449 ms
-2025-04-25T13:09:12.731+06:00  INFO 23184 --- [dream-shops] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-25T13:09:12.785+06:00  INFO 23184 --- [dream-shops] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-25T13:09:12.834+06:00  INFO 23184 --- [dream-shops] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-25T13:09:13.089+06:00  INFO 23184 --- [dream-shops] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-25T13:09:13.123+06:00  INFO 23184 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-25T13:09:13.453+06:00  INFO 23184 --- [dream-shops] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@631944d4
-2025-04-25T13:09:13.455+06:00  INFO 23184 --- [dream-shops] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-25T13:09:13.486+06:00  WARN 23184 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-04-25T13:09:13.487+06:00  WARN 23184 --- [dream-shops] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-04-25T13:09:13.501+06:00  INFO 23184 --- [dream-shops] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-04-25T13:09:14.343+06:00  INFO 23184 --- [dream-shops] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-25T13:09:14.424+06:00  INFO 23184 --- [dream-shops] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-25T13:09:14.781+06:00  INFO 23184 --- [dream-shops] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-04-25T13:09:14.781+06:00  WARN 23184 --- [dream-shops] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-04-25T13:09:14.977+06:00  WARN 23184 --- [dream-shops] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-25T13:09:15.535+06:00  INFO 23184 --- [dream-shops] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-04-25T13:09:15.544+06:00  INFO 23184 --- [dream-shops] [main] c.l.dreamshops.DreamShopsApplication     : Started DreamShopsApplication in 4.921 seconds (process running for 5.237)
-2025-04-25T13:09:35.128+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-04-25T13:09:35.129+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-04-25T13:09:35.131+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-04-25T13:09:35.158+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request START [ID:3064f60f-2514-48fd-9010-88631446e0c8]: POST /api/auth/login from 0:0:0:0:0:0:0:1
-2025-04-25T13:09:35.488+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:3064f60f-2514-48fd-9010-88631446e0c8]: Status 500 in 331ms
-2025-04-25T13:09:37.600+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request START [ID:3bd071f9-73de-4ed4-b96a-633dbf717936]: POST /api/auth/login from 0:0:0:0:0:0:0:1
-2025-04-25T13:09:37.665+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:3bd071f9-73de-4ed4-b96a-633dbf717936]: Status 500 in 65ms
-2025-04-25T13:09:39.726+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request START [ID:eccfd574-9308-4567-bc20-f38ef15e3c98]: POST /api/auth/login from 0:0:0:0:0:0:0:1
-2025-04-25T13:09:39.828+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:eccfd574-9308-4567-bc20-f38ef15e3c98]: Status 200 in 102ms
-2025-04-25T13:09:44.578+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request START [ID:894a3f5a-f614-46c3-8c27-c4e8886ae228]: GET /api/products/5 from 0:0:0:0:0:0:0:1
-2025-04-25T13:09:44.638+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:894a3f5a-f614-46c3-8c27-c4e8886ae228]: Status 200 in 60ms
-2025-04-25T13:09:47.420+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request START [ID:73aca5c1-a449-4336-8746-029d33658bd8]: POST /api/products from 0:0:0:0:0:0:0:1
-2025-04-25T13:09:47.518+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:73aca5c1-a449-4336-8746-029d33658bd8]: Status 201 in 98ms
-2025-04-25T13:09:50.562+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request START [ID:033b6160-d8d8-4cee-afe6-2075823559ee]: GET /api/products?page=1&size=2&sort=price from 0:0:0:0:0:0:0:1
-2025-04-25T13:09:50.587+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:033b6160-d8d8-4cee-afe6-2075823559ee]: Status 200 in 25ms
-2025-04-25T13:09:57.426+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.filter.RequestLoggingFilter        : Request START [ID:adc3f89d-bfca-4fb7-929a-71ccd9bf3572]: GET /api/products?page=1&size=2&sort=price&brand=GG from 0:0:0:0:0:0:0:1
-2025-04-25T13:09:57.439+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:adc3f89d-bfca-4fb7-929a-71ccd9bf3572]: Status 200 in 13ms
-2025-04-25T13:10:02.191+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request START [ID:1ced829e-f49c-4081-b9ca-bea64a4c163f]: GET /api/products?page=1&size=2 from 0:0:0:0:0:0:0:1
-2025-04-25T13:10:02.202+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:1ced829e-f49c-4081-b9ca-bea64a4c163f]: Status 200 in 12ms
-2025-04-25T13:10:11.882+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request START [ID:9daa74e7-c89a-425a-90c5-95c53717b89d]: GET /api/products?page=1&size=2&sort=price from 0:0:0:0:0:0:0:1
-2025-04-25T13:10:11.897+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:9daa74e7-c89a-425a-90c5-95c53717b89d]: Status 200 in 15ms
-2025-04-25T13:10:20.439+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request START [ID:5a1ae179-daeb-4e0f-9b80-cb7c10642392]: DELETE /api/products/5 from 0:0:0:0:0:0:0:1
-2025-04-25T13:10:20.822+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:5a1ae179-daeb-4e0f-9b80-cb7c10642392]: Status 200 in 383ms
-2025-04-25T13:10:27.147+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request START [ID:bed71538-6f55-45fa-8732-68add2109d23]: GET /api/images/product/5 from 0:0:0:0:0:0:0:1
-2025-04-25T13:10:27.159+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:bed71538-6f55-45fa-8732-68add2109d23]: Status 200 in 12ms
-2025-04-25T13:10:29.939+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request START [ID:8759b423-5df5-4f70-8614-8a9385179390]: POST /api/images/upload/5 from 0:0:0:0:0:0:0:1
-2025-04-25T13:10:29.971+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-6] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:8759b423-5df5-4f70-8614-8a9385179390]: Status 404 in 32ms
-2025-04-25T13:10:34.809+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request START [ID:fcde350d-08db-48c5-8a50-bbf5193bfe18]: POST /api/images/upload/6 from 0:0:0:0:0:0:0:1
-2025-04-25T13:10:35.019+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:fcde350d-08db-48c5-8a50-bbf5193bfe18]: Status 201 in 210ms
-2025-04-25T13:10:41.275+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request START [ID:7f52693e-d5d7-4d06-b78c-79095dc815aa]: DELETE /api/images/1 from 0:0:0:0:0:0:0:1
-2025-04-25T13:10:41.284+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:7f52693e-d5d7-4d06-b78c-79095dc815aa]: Status 404 in 9ms
-2025-04-25T13:10:44.073+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request START [ID:7048e44b-8796-4c63-bb86-006da0c85153]: GET /api/images/product/5 from 0:0:0:0:0:0:0:1
-2025-04-25T13:10:44.079+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:7048e44b-8796-4c63-bb86-006da0c85153]: Status 200 in 6ms
-2025-04-25T13:10:50.778+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request START [ID:f5a75646-cf06-4125-8c21-92fbb08a1057]: GET /api/images/product/6 from 0:0:0:0:0:0:0:1
-2025-04-25T13:10:50.802+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:f5a75646-cf06-4125-8c21-92fbb08a1057]: Status 200 in 24ms
-2025-04-25T13:10:56.027+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.filter.RequestLoggingFilter        : Request START [ID:d320087f-e8c3-4e6c-94f0-ed5bb26129fa]: DELETE /api/images/3 from 0:0:0:0:0:0:0:1
-2025-04-25T13:10:56.059+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:d320087f-e8c3-4e6c-94f0-ed5bb26129fa]: Status 204 in 32ms
-2025-04-25T13:10:57.745+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request START [ID:faacf453-cf80-403e-a13b-4bcae4fc3940]: GET /api/images/product/6 from 0:0:0:0:0:0:0:1
-2025-04-25T13:10:57.750+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:faacf453-cf80-403e-a13b-4bcae4fc3940]: Status 200 in 5ms
-2025-04-25T13:11:38.319+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request START [ID:a6600a15-5a58-4a7c-924d-bd3aaaaf7664]: DELETE /api/images/3 from 0:0:0:0:0:0:0:1
-2025-04-25T13:11:38.330+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:a6600a15-5a58-4a7c-924d-bd3aaaaf7664]: Status 404 in 11ms
-2025-04-25T13:11:41.143+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request START [ID:27ddfaaf-d6ed-4c30-b61d-530d817ced5c]: POST /api/images/upload/6 from 0:0:0:0:0:0:0:1
-2025-04-25T13:11:41.269+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:27ddfaaf-d6ed-4c30-b61d-530d817ced5c]: Status 201 in 126ms
-2025-04-25T13:11:46.230+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request START [ID:f8a83e04-8517-4c31-a73d-ce862dfaf636]: DELETE /api/images/4 from 0:0:0:0:0:0:0:1
-2025-04-25T13:11:46.259+06:00  INFO 23184 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:f8a83e04-8517-4c31-a73d-ce862dfaf636]: Status 204 in 29ms
+2025-04-27T10:45:17.516+06:00  WARN 1876 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.s.e.CustomAuthenticationEntryPoint : Authentication failed: Full authentication is required to access this resource
+2025-04-27T10:45:23.034+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request START [ID:309d4ffc-53bc-4500-ac9f-0445942481af]: POST /api/auth/login from 0:0:0:0:0:0:0:1
+2025-04-27T10:45:23.252+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-2] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:309d4ffc-53bc-4500-ac9f-0445942481af]: Status 200 in 218ms
+2025-04-27T10:46:10.258+06:00 ERROR 1876 --- [dream-shops] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2025-04-23T04:36:52Z. Current time: 2025-04-27T04:46:10Z, a difference of 346158258 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:427) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at com.lelarn.dreamshops.security.JwtTokenProvider.extractAllClaims(JwtTokenProvider.java:68) ~[main/:na]
+	at com.lelarn.dreamshops.security.JwtTokenProvider.extractClaim(JwtTokenProvider.java:59) ~[main/:na]
+	at com.lelarn.dreamshops.security.JwtTokenProvider.extractUsername(JwtTokenProvider.java:55) ~[main/:na]
+	at com.lelarn.dreamshops.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:41) ~[main/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-04-27T10:46:10.261+06:00  WARN 1876 --- [dream-shops] [http-nio-8080-exec-1] c.l.d.s.e.CustomAuthenticationEntryPoint : Authentication failed: Full authentication is required to access this resource
+2025-04-27T10:46:21.130+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request START [ID:ba202e0b-4b9b-435c-8b28-9720b50ea045]: POST /api/auth/login from 0:0:0:0:0:0:0:1
+2025-04-27T10:46:21.204+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-3] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:ba202e0b-4b9b-435c-8b28-9720b50ea045]: Status 200 in 74ms
+2025-04-27T10:46:47.894+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request START [ID:6dfc434d-b3a2-4a35-994d-d36d105de5d3]: POST /api/images/upload/12 from 0:0:0:0:0:0:0:1
+2025-04-27T10:46:47.902+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-4] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:6dfc434d-b3a2-4a35-994d-d36d105de5d3]: Status 500 in 8ms
+2025-04-27T10:47:29.338+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request START [ID:b608d7a6-bf9d-4015-a617-e8450503f6ba]: POST /api/images/upload/12 from 0:0:0:0:0:0:0:1
+2025-04-27T10:47:29.565+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-5] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:b608d7a6-bf9d-4015-a617-e8450503f6ba]: Status 201 in 227ms
+2025-04-27T10:47:38.915+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request START [ID:e4ffac8c-4b65-4d46-9dcf-39ebb6239496]: GET /api/products?page=3&size=2 from 0:0:0:0:0:0:0:1
+2025-04-27T10:47:38.939+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-7] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:e4ffac8c-4b65-4d46-9dcf-39ebb6239496]: Status 200 in 25ms
+2025-04-27T10:47:55.653+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request START [ID:eba2cc22-ad07-4f4b-aefe-c30759618017]: GET /api/products?page=3&size=2&sort=price from 0:0:0:0:0:0:0:1
+2025-04-27T10:47:55.686+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-8] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:eba2cc22-ad07-4f4b-aefe-c30759618017]: Status 200 in 34ms
+2025-04-27T10:48:02.686+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request START [ID:19754c72-4caf-4b69-9e13-5d331cb1fcf0]: GET /api/products?sort=price from 0:0:0:0:0:0:0:1
+2025-04-27T10:48:02.719+06:00  INFO 1876 --- [dream-shops] [http-nio-8080-exec-9] c.l.d.filter.RequestLoggingFilter        : Request END   [ID:19754c72-4caf-4b69-9e13-5d331cb1fcf0]: Status 200 in 33ms
+2025-04-27T10:48:22.432+06:00 ERROR 1876 --- [dream-shops] [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2025-04-26T06:13:08Z. Current time: 2025-04-27T04:48:22Z, a difference of 81314432 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:427) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:529) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:589) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at io.jsonwebtoken.impl.ImmutableJwtParser.parseClaimsJws(ImmutableJwtParser.java:173) ~[jjwt-impl-0.11.5.jar:0.11.5]
+	at com.lelarn.dreamshops.security.JwtTokenProvider.extractAllClaims(JwtTokenProvider.java:68) ~[main/:na]
+	at com.lelarn.dreamshops.security.JwtTokenProvider.extractClaim(JwtTokenProvider.java:59) ~[main/:na]
+	at com.lelarn.dreamshops.security.JwtTokenProvider.extractUsername(JwtTokenProvider.java:55) ~[main/:na]
+	at com.lelarn.dreamshops.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:41) ~[main/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:243) ~[spring-webmvc-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:238) ~[spring-security-config-6.4.4.jar:6.4.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.5.jar:6.2.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-04-27T10:48:22.436+06:00  WARN 1876 --- [dream-shops] [http-nio-8080-exec-10] c.l.d.s.e.CustomAuthenticationEntryPoint : Authentication failed: Full authentication is required to access this resource
